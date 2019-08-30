@@ -1,0 +1,31 @@
+﻿Create a new github repo for our Assignments
+
+On your local machine or on AWS, create a folder to hold ALL of our assignments
+
+Set up a new local repo in this folder
+##new repo - use this code
+echo "# cpsc2125 Assignments" >> README.md
+git init
+git add README.md
+
+//Add your HTML files and CSS files and images to the folder
+//add all files to the stage
+git add .
+git commit -m "Assignment 1"
+git remote add origin https://github.com/yourUser/asn.gityourRepoHere.git
+git push -u origin master
+
+heroku --version
+source <(curl -sL https://cdn.learnenough.com/heroku_install)
+
+heroku login
+heroku create 
+//this create command will create your app in the cloud (can have only 5 apps)
+
+//since Heroku sneers at HTML code, we will trick it to think we are posh PHP:
+https://medium.com/@winnieliang/how-to-run-a-simple-html-css-javascript-application-on-heroku-4e664c541b0b
+
+git push -u heroku master
+
+
+
