@@ -1,0 +1,61 @@
+main {
+  background-image: radial-gradient(white, #379ACE);
+  padding-top:-30px;
+  padding-bottom:70px;
+}
+#test{
+  height: 10px;
+}
+header {
+
+      background-image: url("sunset.jpg");
+      background-repeat: no-repeat;
+      background-size: 20% 100%;
+      background-position: right;
+      background-color: #000032;
+      color: white;
+
+}
+h2{
+  color: #379ACE;
+}
+span{
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.Body{
+  padding-right: 30px;
+  padding-left: 30px;
+  font-size: 1.5em;
+}
+nav {
+  background-color: #90C8E3;
+  margin-top:-22px;
+  font-size: 1.5em;
+}
+a {
+  text-decoration: none;
+}
+#container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  background-color: #FFFFFF;
+  min-width: 650px; max-width: 1280px;
+  box-shadow: 3px 3px 3px #333;
+}
+.Q{
+  line-height: 0;
+}
+.FAQ{
+    padding-left: 30px;
+
+}
+img {
+  width: 100%;
+}
+footer{
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 30px;
+}
